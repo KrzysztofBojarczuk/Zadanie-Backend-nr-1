@@ -15,7 +15,7 @@ namespace Zadanie_Backend_nr_1
 
         public void Create(Person person, List<Person> persons)
         {
-            var validationResult = _validationService.ValidatePersonData(person,persons);
+            var validationResult = _validationService.ValidatePersonData(person, persons);
 
             switch (validationResult)
             {
