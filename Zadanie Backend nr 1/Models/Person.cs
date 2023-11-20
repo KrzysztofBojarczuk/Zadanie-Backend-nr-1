@@ -5,7 +5,7 @@ namespace Zadanie_Backend_nr_1.Model
 {
     public class Person
     {
-        public int Id { get; set; }
+        public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
 

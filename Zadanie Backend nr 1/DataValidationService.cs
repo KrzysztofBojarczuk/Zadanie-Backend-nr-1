@@ -26,12 +26,12 @@ namespace Zadanie_Backend_nr_1
                 return ValidationStatus.InvalidBirthDate;
             }
 
-            if (person.Id == 0)
+            if (person.ID == 0)
             {
                 return ValidationStatus.InvalidId;
             }
 
-            if (persons.Any(p => p.Id == person.Id))
+            if (persons.Any(p => p.ID == person.ID))
             {
                 return ValidationStatus.IdAlreadyExists;
             }

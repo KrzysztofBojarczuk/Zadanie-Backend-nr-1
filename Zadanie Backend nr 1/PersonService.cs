@@ -23,13 +23,13 @@ namespace Zadanie_Backend_nr_1
                     throw new ArgumentException("Invalid date of birth.");
 
                 case ValidationStatus.InvalidId:
-                    throw new ArgumentException("Invalid identifier Id.");
+                    throw new ArgumentException("Invalid identifier ID.");
 
                 case ValidationStatus.EmptyString:
                     throw new ArgumentException("Empty field in personal data.");
 
                 case ValidationStatus.IdAlreadyExists:
-                    throw new ArgumentException("Id already exists.");
+                    throw new ArgumentException("ID already exists.");
 
                 case ValidationStatus.Valid:
                     _persons.Add(person);
